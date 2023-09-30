@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        background-color: rgb(242, 239, 239);
+    }
+    .container{
+        max-width: 1240px;
+        margin: 0 auto;
+    }
+    nav{
+        padding: 1rem;
+        background-color: red;
+    }
+    .nav-con{
+        display: flex;
+        justify-content: space-between;
+    }
+    .logo h3{
+        font-size: 2rem;
+        color: #fff;
+        text-decoration: none;
+        /* padding-left: 100px; */
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    }
+    .menu{
+        display: flex;   
+        justify-content: center;
+        align-items: center;
+    }
+    .menu li{
+        margin: 0 3rem;
+        font-size: 23px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .menu li a{
+        color: #fff;
+        text-decoration: none;
+    }
+    .nav-con .menu ul li a {
+        list-style-type: none;
+    }
+    .hero-con{
+        display: flex;
+        padding: 0.5rem 0;
+    }
+    .hero-img{
+        border: 5px;
+        border-radius: 9px;
+        background-color: rgba(169, 169, 169, 0.23);
+    }
+    .hero-img img{
+        padding: 2rem;
+        width: 100%;
+    }
+    .hero-info{
+        width: 100%;
+        padding: 2rem;
+    }
+    .hero-info h2 {
+        font-size: 2rem;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .hero-info p  {
+        margin: 2rem 0;
+        font-size: 20px;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .hero-info .hero-btn{
+        background-color: rgba(255, 35, 35, 0.859);
+        color: #fff;
+        display: inline-block;
+        padding: 1rem;
+        border-radius: 9px;
+        text-decoration: none;
+    }
+    .hero-btn {
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .text{
+        padding: 0px 0px 30px 0px;
+    }
+    .text{
+        font-size: 18px;
+        font-family:Arial, Helvetica, sans-serif;
+    }
+    .heading{
+        font-size: 25px;
+        padding: 2px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    </style>
+<body>
+    <!-- ========== Menu ========== -->
+    <nav>
+        <div class="container">
+            <div class="nav-con">
+                <div class="logo">
+                    <h3>Teams</h3>
+                </div>
+                <ul class="menu">
+                    <li><a href="#">ferari</a></li>
+                    <li><a href="#">Mercedes</a></li>
+                    <li><a href="#">Red Bull</a></li>
+                    <li><a href="#">Maclaren</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- ========= Body =========== -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-con">
+                <div class="hero-info">
+                    <h2>Formula1</h2>
+                    <p>The <i>FIA</i> <ins> Formula </ins> One World Championship has been one of the premier 
+                        forms of racing around the world since its inaugural season in <strong>1950</strong>. <br>
+                        The word formula in the name refers to the <del>own</del> set of rules to which all 
+                        participants' cars must conform. A Formula One season consists of a 
+                        series of races, known as Grands Prix.</p>
+                    <a href="#" class="hero-btn">Sign In</a>
+                </div>
+                
+                <div class="hero-img">
+                    <img src="https://media.formula1.com/image/upload/content/dam/fom-website/sutton/2022/Italy/Sunday/1422823415.jpg" alt="">
+                </div>
+            </div>
+            <h3 class="heading">History</h3>
+            <p class="text"><i>Formula One originated from the European Motor Racing Championships of the <strong>1920s</strong> and <strong>1930s</strong>.</i> 
+               The formula consists of a set of rules that all participants' cars must follow. 
+               Formula One was a new formula agreed upon during <strong>1946</strong> with the first non-championship races taking place during that year. 
+               The first Formula One Grand Prix was the <strong>1946</strong> Turin Grand Prix. 
+               A number of Grand Prix racing organisations had laid out rules for a motor racing world championship before World War II, 
+               but due to the suspension of racing during the conflict, <s>the World Drivers'</s> Championship did not become formalised until <strong>1947</strong>.
+               The first world championship race took place at Silverstone Circuit in the United Kingdom on <strong>13 May 1950</strong>. Giuseppe Farina,  
+               competing for Alfa Romeo, won the first Drivers' World Championship, narrowly defeating his teammate Juan Manuel Fangio. 
+               Fangio went on to win the championship in <strong> 1951, 1954, 1955, 1956, and 1957</strong>. 
+               This set the record for the most World Championships won by a single driver, 
+               a record that stood for <strong>46 years</strong> until Michael Schumacher won his sixth championship in <strong>2003</strong>.</p>
+        </div>
+        <hr style="width: 100%; height: 5px; background-color: red;">
+    </section>
+    
+    
+</body>
+</html>
